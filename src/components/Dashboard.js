@@ -14,6 +14,7 @@ componentDidMount(){
   render() {
     return (
       <div>
+        <h1>TEst</h1>
         <Pet catToAdopt={this.props.cat}/>
         <Pet dogToAdopt={this.props.dog}/>
       </div>
